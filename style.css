@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.background-image {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-image: url('donation5.jpg');
+    background-size: cover;
+}
+
+.button {
+    background-color: rgb(244, 178, 178);
+    padding: 15px;
+
+
+}
+
+.amount {
+    align-items: center;
+    text-align: center;
+    margin: auto;
+
+}
+
+.upper-part {
+    width: 100vw;
+    height: 100%;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 28px;
+
+}
+
+.second-part {
+    margin: 50px 0px 50px 0px;
+    background-color: white;
+}
+
+.amount p {
+    text-align: center;
+}
+
+.tk {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(229, 183, 183);
+    margin: 20px 100px 100px 50px;
+    justify-content: center;
+    display: inline-block;
+    align-items: center;
+
+
+
+}
+
+#two-thousand {
+    border: 2px solid red;
+}
+
+.our-donate-plan {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.one-third-width {
+    margin-top: 20px;
+    width: 25%;
+    margin-left: 5%;
+
+    padding-left: 20px;
+    border-radius: 10px;
+
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.one-third-width img {
+    width: 30%;
+}
+
+#food {
+    background-color: rgb(201, 245, 245);
+}
+
+#clothes {
+    background-color: rgb(235, 219, 235);
+}
+
+#medicine {
+    background-color: rgba(230, 231, 140, 0.938);
+}
+
+
+
+#get-my-update {
+    margin: 80px;
+    background-color: white;
+    color: Black;
+}
+
+.form {
+    width: 500px;
+    height: 350px;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40%;
+    margin-bottom: 100px;
+
+
+}
+
+
+
+
+
+#email {
+    padding-left: 15px;
+    margin-left: 15px;
+}
+
+.footer {
+    width: 100vw;
+    height: 150px;
+    background-color: black;
+    font-size: 30px;
+    color: indianred;
+    text-align: center;
+    padding-top: 35px;
+    font-family: 'Itim', cursive;
+
+}
+
+.footer p {
+    font-size: 20px;
+    color: white;
+    padding-top: 25px;
+}
